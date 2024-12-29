@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52A8D4422D1EE3FE00093ABA /* MoleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8D4412D1EE3FE00093ABA /* MoleModel.swift */; };
+		52A8D4442D1EE43000093ABA /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8D4432D1EE43000093ABA /* GameViewModel.swift */; };
+		52A8D4462D1EE67600093ABA /* MoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8D4452D1EE67600093ABA /* MoleView.swift */; };
+		52A8D44B2D1EEE2700093ABA /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8D44A2D1EEE2700093ABA /* GameModel.swift */; };
+		52A8D44D2D1EEE7B00093ABA /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8D44C2D1EEE7B00093ABA /* GridView.swift */; };
+		52A8D44F2D1EF86B00093ABA /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8D44E2D1EF86B00093ABA /* StartView.swift */; };
+		52A8D4512D1EF87B00093ABA /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8D4502D1EF87B00093ABA /* GameView.swift */; };
+		52A8D4532D1EF89A00093ABA /* ScoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8D4522D1EF89A00093ABA /* ScoreModel.swift */; };
+		52FE4CCB2D1195B600DD3D8C /* WhackAmoleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FE4CCA2D1195B600DD3D8C /* WhackAmoleApp.swift */; };
+		52FE4CCD2D1195B600DD3D8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FE4CCC2D1195B600DD3D8C /* ContentView.swift */; };
+		52FE4CCF2D1195B700DD3D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FE4CCE2D1195B700DD3D8C /* Assets.xcassets */; };
+		52FE4CD22D1195B700DD3D8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FE4CD12D1195B700DD3D8C /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52A8D4412D1EE3FE00093ABA /* MoleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoleModel.swift; sourceTree = "<group>"; };
+		52A8D4432D1EE43000093ABA /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		52A8D4452D1EE67600093ABA /* MoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoleView.swift; sourceTree = "<group>"; };
+		52A8D44A2D1EEE2700093ABA /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		52A8D44C2D1EEE7B00093ABA /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		52A8D44E2D1EF86B00093ABA /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		52A8D4502D1EF87B00093ABA /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		52A8D4522D1EF89A00093ABA /* ScoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreModel.swift; sourceTree = "<group>"; };
+		52FE4CC72D1195B600DD3D8C /* WhackAmole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhackAmole.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FE4CCA2D1195B600DD3D8C /* WhackAmoleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhackAmoleApp.swift; sourceTree = "<group>"; };
+		52FE4CCC2D1195B600DD3D8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52FE4CCE2D1195B700DD3D8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52FE4CD12D1195B700DD3D8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52FE4CC42D1195B600DD3D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52A8D4472D1EEDC200093ABA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52A8D4412D1EE3FE00093ABA /* MoleModel.swift */,
+				52A8D44A2D1EEE2700093ABA /* GameModel.swift */,
+				52A8D4522D1EF89A00093ABA /* ScoreModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52A8D4482D1EEDCF00093ABA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				52A8D4432D1EE43000093ABA /* GameViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		52A8D4492D1EEDEC00093ABA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52FE4CCC2D1195B600DD3D8C /* ContentView.swift */,
+				52A8D4452D1EE67600093ABA /* MoleView.swift */,
+				52A8D44C2D1EEE7B00093ABA /* GridView.swift */,
+				52A8D44E2D1EF86B00093ABA /* StartView.swift */,
+				52A8D4502D1EF87B00093ABA /* GameView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52FE4CBE2D1195B500DD3D8C = {
+			isa = PBXGroup;
+			children = (
+				52FE4CC92D1195B600DD3D8C /* WhackAmole */,
+				52FE4CC82D1195B600DD3D8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52FE4CC82D1195B600DD3D8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52FE4CC72D1195B600DD3D8C /* WhackAmole.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52FE4CC92D1195B600DD3D8C /* WhackAmole */ = {
+			isa = PBXGroup;
+			children = (
+				52A8D4492D1EEDEC00093ABA /* Views */,
+				52A8D4482D1EEDCF00093ABA /* ViewModels */,
+				52A8D4472D1EEDC200093ABA /* Models */,
+				52FE4CCA2D1195B600DD3D8C /* WhackAmoleApp.swift */,
+				52FE4CCE2D1195B700DD3D8C /* Assets.xcassets */,
+				52FE4CD02D1195B700DD3D8C /* Preview Content */,
+			);
+			path = WhackAmole;
+			sourceTree = "<group>";
+		};
+		52FE4CD02D1195B700DD3D8C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52FE4CD12D1195B700DD3D8C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52FE4CC62D1195B600DD3D8C /* WhackAmole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FE4CD52D1195B700DD3D8C /* Build configuration list for PBXNativeTarget "WhackAmole" */;
+			buildPhases = (
+				52FE4CC32D1195B600DD3D8C /* Sources */,
+				52FE4CC42D1195B600DD3D8C /* Frameworks */,
+				52FE4CC52D1195B600DD3D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhackAmole;
+			productName = WhackAmole;
+			productReference = 52FE4CC72D1195B600DD3D8C /* WhackAmole.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52FE4CBF2D1195B500DD3D8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					52FE4CC62D1195B600DD3D8C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 52FE4CC22D1195B500DD3D8C /* Build configuration list for PBXProject "WhackAmole" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52FE4CBE2D1195B500DD3D8C;
+			productRefGroup = 52FE4CC82D1195B600DD3D8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52FE4CC62D1195B600DD3D8C /* WhackAmole */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52FE4CC52D1195B600DD3D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FE4CD22D1195B700DD3D8C /* Preview Assets.xcassets in Resources */,
+				52FE4CCF2D1195B700DD3D8C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52FE4CC32D1195B600DD3D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A8D4532D1EF89A00093ABA /* ScoreModel.swift in Sources */,
+				52A8D4442D1EE43000093ABA /* GameViewModel.swift in Sources */,
+				52A8D4422D1EE3FE00093ABA /* MoleModel.swift in Sources */,
+				52FE4CCD2D1195B600DD3D8C /* ContentView.swift in Sources */,
+				52A8D44F2D1EF86B00093ABA /* StartView.swift in Sources */,
+				52A8D4512D1EF87B00093ABA /* GameView.swift in Sources */,
+				52A8D44D2D1EEE7B00093ABA /* GridView.swift in Sources */,
+				52A8D4462D1EE67600093ABA /* MoleView.swift in Sources */,
+				52FE4CCB2D1195B600DD3D8C /* WhackAmoleApp.swift in Sources */,
+				52A8D44B2D1EEE2700093ABA /* GameModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		52FE4CD32D1195B700DD3D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52FE4CD42D1195B700DD3D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52FE4CD62D1195B700DD3D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WhackAmole/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.WhackAmole";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52FE4CD72D1195B700DD3D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WhackAmole/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.WhackAmole";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52FE4CC22D1195B500DD3D8C /* Build configuration list for PBXProject "WhackAmole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FE4CD32D1195B700DD3D8C /* Debug */,
+				52FE4CD42D1195B700DD3D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FE4CD52D1195B700DD3D8C /* Build configuration list for PBXNativeTarget "WhackAmole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FE4CD62D1195B700DD3D8C /* Debug */,
+				52FE4CD72D1195B700DD3D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52FE4CBF2D1195B500DD3D8C /* Project object */;
+}
